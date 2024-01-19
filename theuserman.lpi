@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectOptions>
+    <Version Value="12"/>
+    <PathDelim Value="\"/>
+    <General>
+      <Flags>
+        <SaveClosedFiles Value="False"/>
+        <SaveJumpHistory Value="False"/>
+        <SaveFoldState Value="False"/>
+        <CompatibilityMode Value="True"/>
+      </Flags>
+      <SessionStorage Value="None"/>
+      <Title Value="theuserman"/>
+      <ResourceType Value="res"/>
+      <UseXPManifest Value="True"/>
+      <XPManifest>
+        <DpiAware Value="True"/>
+      </XPManifest>
+      <Icon Value="0"/>
+    </General>
+    <i18n>
+      <EnableI18N LFM="False"/>
+    </i18n>
+    <VersionInfo>
+      <UseVersionInfo Value="True"/>
+      <MajorVersionNr Value="3"/>
+      <BuildNr Value="1"/>
+      <StringTable Comments="Simple Hotspot User Manager" CompanyName="The Userman" FileDescription="http://theuserman.blogspot.com" OriginalFilename="theuserman" ProductName="The Userman"/>
+    </VersionInfo>
+    <BuildModes Count="1">
+      <Item1 Name="Default" Default="True"/>
+    </BuildModes>
+    <PublishOptions>
+      <Version Value="2"/>
+    </PublishOptions>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="1">
+        <Mode0 Name="default"/>
+      </Modes>
+    </RunParams>
+    <RequiredPackages Count="4">
+      <Item1>
+        <PackageName Value="laz_synapse"/>
+      </Item1>
+      <Item2>
+        <PackageName Value="lazbarcodes"/>
+      </Item2>
+      <Item3>
+        <PackageName Value="SpkToolbarPackage"/>
+      </Item3>
+      <Item4>
+        <PackageName Value="LCL"/>
+      </Item4>
+    </RequiredPackages>
+    <Units Count="22">
+      <Unit0>
+        <Filename Value="theuserman.lpr"/>
+        <IsPartOfProject Value="True"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="uutama.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FUtama"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="ulogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="ULogin"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="udatalimitbw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FDataLimitBW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UDataLimitBW"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="utambahlimitbw.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FTambahLimitBW"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UTambahLimitBW"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="udatauserhotspot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FDataUserHotspot"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UDataUserHotspot"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="udatauserhotspotaktif.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FDataUserHotspotAktif"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UDataUserHotspotAktif"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="utambahuserhotspot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FTambahUserHotspot"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UTambahUserHotspot"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="ugenerateuserhotspot.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FGenerateUserHotspot"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UGenerateUserHotspot"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="ueksporthapusbygroup.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FEksportHapusByGroup"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UEksportHapusByGroup"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="uubahpassword.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FUbahPassword"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UUbahPassword"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="utemplatevoucher.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FTemplateVoucher"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="UTemplateVoucher"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="bahasa.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="uqrcodelogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FQRCodeLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="uqrlogin.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FQRLogin"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="uquota.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FQuota"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="encode_decode.pas"/>
+        <IsPartOfProject Value="True"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="ulog.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FLog"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="uselectitem.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FSelectItem"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="uselectcolumn.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FCustomVoucherColumn"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="uhtmltemplate.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FHTMLTemplate"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="uvalidityinstall.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FValidityInstall"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+      </Unit21>
+    </Units>
+  </ProjectOptions>
+  <CompilerOptions>
+    <Version Value="11"/>
+    <PathDelim Value="\"/>
+    <Target>
+      <Filename Value="theuserman"/>
+    </Target>
+    <SearchPaths>
+      <IncludeFiles Value="$(ProjOutDir)"/>
+      <OtherUnitFiles Value="C:\lazarus\components\synapse40\source\lib\lib\;C:\Openssl-0.9.8d-Win32\"/>
+      <UnitOutputDirectory Value="lib\$(TargetCPU)-$(TargetOS)"/>
+    </SearchPaths>
+    <Linking>
+      <Debugging>
+        <GenerateDebugInfo Value="False"/>
+        <DebugInfoType Value="dsDwarf2Set"/>
+        <StripSymbols Value="True"/>
+      </Debugging>
+      <Options>
+        <Win32>
+          <GraphicApplication Value="True"/>
+        </Win32>
+      </Options>
+    </Linking>
+  </CompilerOptions>
+  <Debugging>
+    <Exceptions Count="3">
+      <Item1>
+        <Name Value="EAbort"/>
+      </Item1>
+      <Item2>
+        <Name Value="ECodetoolError"/>
+      </Item2>
+      <Item3>
+        <Name Value="EFOpenError"/>
+      </Item3>
+    </Exceptions>
+  </Debugging>
+</CONFIG>

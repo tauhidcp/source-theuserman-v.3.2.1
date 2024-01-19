@@ -1,0 +1,38 @@
+object FQRLogin: TFQRLogin
+  Left = 503
+  Height = 165
+  Top = 255
+  Width = 147
+  BorderStyle = bsNone
+  Caption = 'FQRLogin'
+  ClientHeight = 165
+  ClientWidth = 147
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object GroupQRLogin: TGroupBox
+    Left = 0
+    Height = 155
+    Top = 0
+    Width = 147
+    Align = alClient
+    Caption = 'Membuat Kode Batang...'
+    ClientHeight = 135
+    ClientWidth = 143
+    TabOrder = 0
+    object QRLogin: TBarcodeQR
+      Left = 8
+      Height = 128
+      Top = 0
+      Width = 128
+      Text = 'TBarcodeQR'
+    end
+  end
+  object ProgressQRLogin: TProgressBar
+    Left = 0
+    Height = 10
+    Top = 155
+    Width = 147
+    Align = alBottom
+    TabOrder = 1
+  end
+end

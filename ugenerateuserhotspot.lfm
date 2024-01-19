@@ -1,0 +1,395 @@
+object FGenerateUserHotspot: TFGenerateUserHotspot
+  Left = 377
+  Height = 497
+  Top = 114
+  Width = 514
+  BorderIcons = [biSystemMenu]
+  Caption = 'User Hotspot Generator'
+  ClientHeight = 497
+  ClientWidth = 514
+  OnClose = FormClose
+  OnCreate = FormCreate
+  OnShow = FormShow
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+  object PanelAtas: TPanel
+    Left = 0
+    Height = 50
+    Top = 0
+    Width = 514
+    Align = alTop
+    BevelOuter = bvLowered
+    Caption = 'User Hotspot Generator'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -17
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object PanelBawah: TPanel
+    Left = 0
+    Height = 50
+    Top = 447
+    Width = 514
+    Align = alBottom
+    BevelOuter = bvLowered
+    ClientHeight = 50
+    ClientWidth = 514
+    TabOrder = 1
+    OnClick = PanelBawahClick
+    object BGenerate: TBitBtn
+      Left = 288
+      Height = 30
+      Top = 8
+      Width = 100
+      Caption = 'Generate'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00BA6833C5C38458FFD38B68FFE18F70FFDC8D
+        6CFFDA8B6DFFD78A6EFFCD8B6CFFAB6D44FFA65F2EFFFFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00C68355FFEFCEBAFFDDFFFFFF87EEC7FFA2F4
+        D7FFA2F6D7FF8CEEC7FFE0FFFFFFDDA285FFAB6A3EFFFFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00BA6833ACC38458DEC37F51FFEFB69AFFEAF3E8FF51BF84FF6FC9
+        98FF71C999FF54BF84FFE4F4E9FFDD9C7BFFAA693AFFFFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00C68355DEEFCEBADEC48154FFEAB697FFF3F3EAFFEDF1E6FFEFF1
+        E6FFEFF0E6FFEDF1E5FFF3F5EDFFD59C79FFB07044FFFFFFFF00FFFFFF00BA68
+        339BC38458C9C58053F8EEB296F8C98B61FFE6B592FFE2A781FFE1A781FFDEA3
+        7DFFDCA17BFFDB9F79FFD99E77FFD49A73FFBB7E57FFFFFFFF00FFFFFF00C683
+        55C9EFCEBAC9C78E66F8E0BC9CF8CA8D65FFEAB899FFDDA57EFFDDA680FFDBA3
+        7CFFD9A07AFFD9A079FFD89F78FFD89E78FFBF845DFFFFFFFF00FFFFFF00C37F
+        51C9EFB69AC9CC966FF8D6B691F8C8885DFFEFBFA1FFFDFCFAFFFEFCFBFFFEFD
+        FDFFFEFDFCFFFDFBFAFFFDFCFBFFDDA885FFC17F53FFFFFFFF00FFFFFF00C481
+        54C9EAB697C9CE9873F8EABEA1F8C7865BFFEFC09EFFFFFFFFFFCC936EFFFFFF
+        FFFFFFFFFFFFFFFBF7FFFFF8F1FFE4AF8CFFC78A61FFFFFFFF00FFFFFF00C98B
+        61C9E6B592C9CB8B61F8EEBC9EF8CC8D65FFF3CDB0FFFFFFFFFFE3C7B3FFFFFF
+        FFFFFFFFFFFFFFFFFFFFFFFFFFFFEABFA1FFC98960FFFFFFFF00FFFFFF00CA8D
+        65C9EAB899C9C9895FF8EDBD9BF8D4976EFFD49E7BFFD09871FFD6A482FFCD8E
+        68FFCD9069FFD09A75FFD19973FFC88B62FFAD5A2036FFFFFF00FFFFFF00C888
+        5DC9EFBFA1C9D19975F8F4D2B8F8FFFFFFF8E6CDBBF8FFFFFEF8FFFFFFF8FBF6
+        F2F8F8F1EDF8EABFA1DEC98960DEFFFFFF00FFFFFF00FFFFFF00FFFFFF00C786
+        5BC9EFC09EC9D9A27DF8D39D7AF8D5A380F8DAAE8FF8D29A77F8D29B77F8D29C
+        77F8D09771F8C88B62DEAD5A202FFFFFFF00FFFFFF00FFFFFF00FFFFFF00CC8D
+        65C9F3CDB0C9FFFFFFC9E3C7B3C9FFFFFFC9FFFFFFC9FFFFFFC9FFFFFFC9EABF
+        A1C9C98960C9FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00D497
+        6EC9D49E7BC9D09871C9D6A482C9CD8E68C9CD9069C9D09A75C9D19973C9C88B
+        62C9AD5A202BFFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+      }
+      OnClick = BGenerateClick
+      TabOrder = 0
+    end
+    object BBaru: TBitBtn
+      Left = 144
+      Height = 30
+      Top = 8
+      Width = 75
+      Caption = 'New'
+      Glyph.Data = {
+        36040000424D3604000000000000360000002800000010000000100000000100
+        2000000000000004000064000000640000000000000000000000FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF0041924E233D8F497D3A8C44DB368940F332873CF32F84
+        37DB2C81337D287F3023FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF0049995853459653E6419950FF7DC28FFF96D0A6FF96CFA6FF78BE
+        89FF368D42FF2C8134E6297F3053FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00519F61534D9C5DF464B478FFA8DBB5FF87CC98FF66BC7DFF64BA7CFF86CB
+        98FFA5D9B4FF58AA6BFF2C8134F4297F3053FFFFFF00FFFFFF00FFFFFF0059A6
+        6B2256A366E56AB97DFFA8DBB2FF60BC77FF5CBA73FF59B870FF59B56FFF58B5
+        6FFF5BB774FFA5D9B3FF5AAA6CFF2C8234E5297F3022FFFFFF00FFFFFF005DA9
+        707E53AB68FFAADDB4FF64C179FF5FBE71FF60BC77FFFFFFFFFFFFFFFFFF59B8
+        70FF58B56EFF5CB774FFA6DAB4FF388F43FF2C82347EFFFFFF00FFFFFF0061AC
+        75DB8ACC98FF89D396FF6BC67AFF63C170FF55AB65FFFFFFFFFFFFFFFFFF59B8
+        70FF59B870FF5BB972FF85CC97FF7BBE8DFF308539DBFFFFFF00FFFFFF0065AF
+        7AF6A9DDB3FF7DCF8AFF75CC81FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFF59B870FF67BE7DFF9CD4ABFF34883DF6FFFFFF00FFFFFF0069B2
+        7EF6B6E2BEFF8BD597FF7AC986FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+        FFFFFFFFFFFF59B870FF69C17EFF9DD4AAFF388B42F6FFFFFF00FFFFFF006DB5
+        83DBACDDB6FFA6DFAFFF81CB8CFF7CC986FF6EBD79FFFFFFFFFFFFFFFFFF5BAC
+        6AFF60BC77FF5CBA73FF8BD199FF80C592FF3C8E47DBFFFFFF00FFFFFF0070B8
+        877E85C797FFD2EED7FF95D9A0FF8AD394FF7FC889FFFFFFFFFFFFFFFFFF79CD
+        85FF6BC37CFF6FC77EFFACDFB5FF459E57FF40914C7EFFFFFF00FFFFFF0073BA
+        8A2270B887E5AADAB7FFD8F1DCFF92D89DFF88CD93FF84CC8EFF8BD496FF8AD4
+        95FF83D28EFFAFE0B7FF6BB97DFF489856E544945122FFFFFF00FFFFFF00FFFF
+        FF0073BB8B5370B887F4AFDCBBFFDCF2E0FFB6E4BDFF9BDBA5FF96D9A0FFA5DF
+        AFFFC0E8C5FF79C28AFF509E5FF44C9B5B53FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF0073BB8B5371B887E694CEA4FFC3E6CBFFCFEBD4FFC9E9CEFFAFDD
+        B8FF6DB97FFF58A569E654A16553FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF0074BB8B2371B9887D6EB684DB6AB380F367B17CF363AE
+        77DB60AB737D5CA86E23FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFF
+        FF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00FFFFFF00
+      }
+      OnClick = BBaruClick
+      TabOrder = 1
+    end
+  end
+  object PanelTengah: TPanel
+    Left = 0
+    Height = 397
+    Top = 50
+    Width = 514
+    Align = alClient
+    BevelOuter = bvLowered
+    ClientHeight = 397
+    ClientWidth = 514
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -13
+    Font.Name = 'Calibri'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+    object Label1: TLabel
+      Left = 48
+      Height = 15
+      Top = 96
+      Width = 101
+      Caption = 'Login Name Length'
+      ParentColor = False
+    end
+    object Label2: TLabel
+      Left = 47
+      Height = 15
+      Top = 132
+      Width = 92
+      Caption = 'Password Length'
+      ParentColor = False
+    end
+    object Label3: TLabel
+      Left = 48
+      Height = 15
+      Top = 168
+      Width = 154
+      Caption = 'Bandwidth Limitation Group'
+      ParentColor = False
+    end
+    object Label4: TLabel
+      Left = 47
+      Height = 15
+      Top = 201
+      Width = 84
+      Caption = 'Time Limitation'
+      ParentColor = False
+    end
+    object Label5: TLabel
+      Left = 47
+      Height = 15
+      Top = 233
+      Width = 51
+      Caption = 'Comment'
+      ParentColor = False
+    end
+    object Label6: TLabel
+      Left = 48
+      Height = 15
+      Top = 292
+      Width = 91
+      Caption = 'Number of Users'
+      ParentColor = False
+    end
+    object CPanjangUser: TComboBox
+      Left = 256
+      Height = 23
+      Top = 96
+      Width = 112
+      ItemHeight = 15
+      Items.Strings = (
+        ''
+      )
+      OnKeyPress = CPanjangUserKeyPress
+      TabOrder = 0
+      Text = '-Select-'
+    end
+    object CPanjangPass: TComboBox
+      Left = 216
+      Height = 23
+      Top = 132
+      Width = 152
+      ItemHeight = 15
+      Items.Strings = (
+        ''
+      )
+      OnKeyPress = CPanjangPassKeyPress
+      TabOrder = 1
+      Text = '-Select-'
+    end
+    object CGLBW: TComboBox
+      Left = 216
+      Height = 23
+      Top = 168
+      Width = 247
+      ItemHeight = 15
+      OnKeyPress = CGLBWKeyPress
+      TabOrder = 2
+      Text = '-Select-'
+    end
+    object EJmlWaktu: TEdit
+      Left = 216
+      Height = 23
+      Top = 201
+      Width = 96
+      OnKeyPress = EJmlWaktuKeyPress
+      TabOrder = 3
+    end
+    object CLimitWaktu: TComboBox
+      Left = 316
+      Height = 23
+      Top = 200
+      Width = 147
+      ItemHeight = 15
+      Items.Strings = (
+        'Minutes'
+        'Hours'
+        'Day'
+      )
+      OnKeyPress = CLimitWaktuKeyPress
+      TabOrder = 4
+      Text = '-Select-'
+    end
+    object MKeterangan: TMemo
+      Left = 216
+      Height = 49
+      Top = 233
+      Width = 247
+      TabOrder = 5
+    end
+    object EJumlahUser: TEdit
+      Left = 216
+      Height = 23
+      Top = 292
+      Width = 152
+      OnKeyPress = EJumlahUserKeyPress
+      TabOrder = 6
+    end
+    object ProgressBar: TProgressBar
+      Left = 1
+      Height = 10
+      Top = 1
+      Width = 512
+      Align = alTop
+      TabOrder = 7
+    end
+    object Label7: TLabel
+      Left = 48
+      Height = 15
+      Top = 324
+      Width = 28
+      Caption = 'Price'
+      ParentColor = False
+    end
+    object EPrice: TEdit
+      Left = 216
+      Height = 23
+      Top = 324
+      Width = 152
+      TabOrder = 8
+    end
+    object Label8: TLabel
+      Left = 48
+      Height = 15
+      Top = 356
+      Width = 42
+      Caption = 'Validity'
+      ParentColor = False
+    end
+    object CkPrefix: TCheckBox
+      Left = 372
+      Height = 19
+      Top = 97
+      Width = 52
+      Caption = 'Prefix'
+      OnChange = CkPrefixChange
+      TabOrder = 9
+    end
+    object EPrefix: TEdit
+      Left = 216
+      Height = 23
+      Top = 96
+      Width = 40
+      OnKeyPress = EPrefixKeyPress
+      TabOrder = 10
+    end
+    object CSamaUser: TCheckBox
+      Left = 372
+      Height = 19
+      Top = 134
+      Width = 84
+      Caption = '= Username'
+      OnChange = CSamaUserChange
+      TabOrder = 11
+    end
+    object EValid: TEdit
+      Left = 216
+      Height = 23
+      Top = 356
+      Width = 152
+      OnKeyPress = EValidKeyPress
+      TabOrder = 12
+    end
+    object Lday: TLabel
+      Left = 372
+      Height = 15
+      Top = 359
+      Width = 21
+      Caption = 'Day'
+      ParentColor = False
+    end
+    object LServer: TLabel
+      Left = 47
+      Height = 15
+      Top = 27
+      Width = 80
+      Caption = 'Hotspot Server'
+      ParentColor = False
+    end
+    object CBServer: TComboBox
+      Left = 216
+      Height = 23
+      Top = 27
+      Width = 152
+      ItemHeight = 15
+      OnKeyPress = CBServerKeyPress
+      TabOrder = 13
+      Text = ' -Select-'
+    end
+    object LCharComb: TLabel
+      Left = 49
+      Height = 15
+      Top = 61
+      Width = 127
+      Caption = 'Character Combination'
+      ParentColor = False
+    end
+    object CkNum: TCheckBox
+      Left = 216
+      Height = 19
+      Top = 64
+      Width = 63
+      Caption = 'Number'
+      TabOrder = 14
+    end
+    object CkUp: TCheckBox
+      Left = 288
+      Height = 19
+      Top = 64
+      Width = 78
+      Caption = 'Uppercase'
+      TabOrder = 15
+    end
+    object CkLow: TCheckBox
+      Left = 376
+      Height = 19
+      Top = 64
+      Width = 77
+      Caption = 'Lowercase'
+      TabOrder = 16
+    end
+  end
+end

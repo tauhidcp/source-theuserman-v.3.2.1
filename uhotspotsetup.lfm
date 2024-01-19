@@ -1,0 +1,10 @@
+object FHotspotSetup: TFHotspotSetup
+  Left = 441
+  Height = 240
+  Top = 260
+  Width = 320
+  BorderIcons = [biSystemMenu]
+  Caption = 'Hotspot Setup'
+  Position = poScreenCenter
+  LCLVersion = '1.6.4.0'
+end
